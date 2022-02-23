@@ -1,0 +1,21 @@
+.container {
+  position: relative;
+  display: inline-block;
+}
+.input {
+  width: 180px;
+}
+.suggestionsContainer {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  background-color: aliceblue;
+}
+.suggestions {
+  border: 1px black solid;
+}
+.suggestions:hover {
+  background-color: slategray;
+  cursor: pointer;
+}
